@@ -1,3 +1,8 @@
+.RData
+.Rhistory
+.Rproj.user/
+DC_epigenomics.RData
+NCoR1_H3K27ac_IGV_igv_session.xml
 bash/command.sh
 bash/CpG_pIC_H3K27ac_analysis.sh
 bash/feature_count.sh
@@ -9,6 +14,7 @@ Main_Figures/*
 plots/g130.png
 plots/g284248.png
 plots/g372.png
+plots/*.png
 plots/H3K27ac_flowchart.drawio
 plots/H3K27ac_NCoR1_KD_sample_hclust.pdf.2021_03_10_11_55_07.0.svg
 plots/NCoR1_LRT_cluster_1267.pdf
@@ -43,7 +49,6 @@ results/CpG_pIC_common_genes_NCoR1.peaks.density.txt
 results/CpG_pIC_H3K27ac_motif.pptx
 results/CpG_pIC_H3K27ac_motifs.pdf
 results/CpG_pIC_H3K27ac_motifs.png
-results/CpG_pIC_specific_genes.rds
 results/CpG_pIC_Specific_genes.xlsx
 results/CpG_specific_genes_NCoR1.overlap.H3k27ac.bed
 results/CpG_specific_genes_NCoR1.peaks.bed
@@ -65,8 +70,6 @@ results/NCoR1_LRT_cluster1.7.11_associated_diff_NCoR1_peaks.bed
 results/NCoR1_LRT_cluster1.7.11_associated_diff_NCoR1_peaks.fa
 results/NCoR1_LRT_cluster2.3.6.10_associated_diff_NCoR1_peaks.bed
 results/NCoR1_LRT_cluster2.3.6.10_associated_diff_NCoR1_peaks.fa
-results/NCoR1_LRT_cluster_genes.csv
-results/NCoR1_LRT_cluster_genes.rds
 results/PearsonCorr_bigwigScores.tab
 results/pIC_specific_genes_NCoR1.overlap.H3k27ac.bed
 results/pIC_specific_genes_NCoR1.peaks.bed
@@ -77,6 +80,8 @@ results/pIC_specific_H3K27ac_peaks.bed
 results/pIC_specific_H3K27ac_peaks.fa
 results/tmp.bed
 R/Genome_browser_track.R
+R/H3K27ac_Diffbind.R
+R/H3K27ac_IRF3_RelA_overlap.R
 R/LoadData.R
 R/NcoR1_data_modelling.R
 R/NCoR1_ecdf_plot.R
