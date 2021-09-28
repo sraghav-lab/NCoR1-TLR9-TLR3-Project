@@ -1,4 +1,3 @@
-load("DC_epigenomics.RData")
 library(DESeq2)
 library(DiffBind)
 library(tools)
@@ -54,4 +53,4 @@ gg_theme_xrot <- theme_bw(15) +
         legend.justification=c(0,1),
         #legend.box.background = element_rect(colour = "black"),
         plot.title = element_text(hjust = 0.5,size=15))
-save.image("DC_epigenomics.RData")
+
