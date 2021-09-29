@@ -6,7 +6,6 @@ dir.create("results/WGCNA")
 ########################################################################################################
 #Data loading and cleaning
 ########################################################################################################
-#Expression matrix
 load("results/Control_RNASeq.RData")
 load("results/NCoR1.KD_RNASeq.RData")
 
